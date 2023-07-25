@@ -1,0 +1,86 @@
+h1{
+      text-align: center; 
+      font-family: "poppins";
+      padding-top: 2rem;
+}
+h2{
+    text-align: center; 
+    font-family: "poppins";
+    padding-top: 0.6rem;
+    padding-bottom: 2rem;
+}
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    border: #ccc;
+    
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .product {
+    border: none;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .product img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    height: 180px;
+    border-radius: 1rem;
+  }
+
+  .product-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-family: "poppins";
+  }
+
+  .product-price {
+    font-weight: bold;
+    color:black;
+    font-size: 1rem;
+    font-family: "poppins";
+  }
+
+  .buy-now {
+    background-color:white;
+    color: #f1c31e;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+  }
+
+  .buy-now:hover {
+    background-color: #f1c31e;
+    color: white;
+    border: 2.5px solid white;
+  }
+  #co{
+    margin-top: -2rem;
+    margin-left: 1.3rem;
+    height: 80px;
+    width: 200px;
+    background-color:#f1c31e;
+    border-radius: 0.9rem;
+    padding-bottom: 90px;
+    position: relative;
+    border: #f5ae57;
+  }
+  a{
+    border-radius: 10px;
+  }
